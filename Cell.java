@@ -14,7 +14,7 @@ public class Cell{
     // --------------------- Позиция метки -----------------------
 
     // --------------------------------------------------------------
-    private Point _position;
+    protected Point _position;
     
     void setPosition(Point pos){
         _position = pos;
