@@ -6,9 +6,8 @@ import xzero.model.events.CellActionListener;
 import java.awt.Point;
 import java.util.ArrayList;
 
-/*
- * Ячейка, являющаяся составной частью поля и содержащая в себе метку
- */
+// Ячейка, являющаяся составной частью поля и содержащая в себе метку
+ 
 public class Cell{
     // --------------------- Позиция метки -----------------------
 
