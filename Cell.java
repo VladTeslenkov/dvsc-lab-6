@@ -64,7 +64,7 @@ public class Cell{
     // TODO---
     private ArrayList<CellActionListener> _cellListenerList = new ArrayList();
 
-    // Присоединяет слушателя
+    // Присоединяет слушателя, который следит за меткой
     public void addCellActionListener(CellActionListener l) {
         this._cellListenerList.add(l);
     }
