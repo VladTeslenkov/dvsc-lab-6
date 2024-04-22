@@ -58,7 +58,7 @@ public class Cell{
     }
     
     public boolean isEmpty(){
-        return this._label == null;
+        return this._label == null; //Если метки нет, то  вернется true
     }
 
     // TODO---
