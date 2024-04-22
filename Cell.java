@@ -78,4 +78,9 @@ public class Cell{
             listener.removeLabelonCell(event);
         }
     }
+
+    private Player _player;
+    public void setPlayer(Player p) {
+	this._player = p;
+    }
 }
