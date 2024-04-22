@@ -26,7 +26,7 @@ public class Cell{
     
 // --------- Метка, принадлежит полю. Принадлежность задает само поле ------
     private GameField _field;
-
+    // Связь с моделью игры
     private GameModel _game;
     
     void setField(GameField f){
