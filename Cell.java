@@ -61,7 +61,7 @@ public class Cell{
         return this._label == null;
     }
 
-    // TODO---
+    // TODO--- Сделать список слушателей
     private ArrayList<CellActionListener> _cellListenerList = new ArrayList();
 
     // Присоединяет слушателя, который следит за меткой
