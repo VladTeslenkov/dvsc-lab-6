@@ -35,7 +35,7 @@ public class Cell{
    // TODO реализация связи с классов Label (агрегация в сторону Cell)
     private Label _label;
 
-    public void setLabel(Label l) {
+    public void setLabel(Label l) { //Связываем метку с клеткой
         if(isEmpty()) {
             this._label = l;
             _label.setCell(this);
