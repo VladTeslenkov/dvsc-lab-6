@@ -69,6 +69,7 @@ public class Cell{
         this._cellListenerList.add(l);
     }
 
+    // Сообщение о удалении метки
     public void messageDeletingLabel() {
         CellActionEvent event = new CellActionEvent(this);
         event.setCell(this);
