@@ -53,7 +53,7 @@ public class Cell{
     }
 
     public Label label() {
-        return this._label;
+        return _label;
     }
     
     public boolean isEmpty(){
