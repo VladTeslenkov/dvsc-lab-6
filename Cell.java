@@ -1,4 +1,4 @@
-package xzero.model;
+package xzero.model;//Папка
 
 import xzero.model.events.CellActionEvent;
 import xzero.model.events.CellActionListener;
