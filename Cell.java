@@ -39,7 +39,7 @@ public class Cell{
             this._label = l;
             _label.setCell(this);
         }
-    } // TODO
+    } 
 
     //TODO Игрок однократно может удалить любую метку с поля. После удаление метки игрок сохраняет свой ход. -----------МОДИФИКАЦИЯ
     public void removeLabel(Label l) {
