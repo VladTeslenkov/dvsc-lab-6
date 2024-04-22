@@ -72,7 +72,7 @@ public class Cell{
         CellActionEvent event = new CellActionEvent(this);
         event.setCell(this);
         event.setPoint(position());
-
+	//Удаляем метку
         for (CellActionListener listener : _cellListenerList) {
             listener.removeLabelonCell(event);
         }
